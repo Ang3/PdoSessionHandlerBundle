@@ -10,7 +10,7 @@ use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 /**
  * @author Joanis ROUANET
  */
-class Ang3PDOSessionHandlerExtension extends Extension
+class Ang3PdoSessionHandlerExtension extends Extension
 {
     /**
      * {@inheritdoc}
