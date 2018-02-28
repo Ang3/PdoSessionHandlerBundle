@@ -3,7 +3,7 @@ PdoSessionHandlerBundle
 
 [![Build Status](https://travis-ci.org/Ang3/PdoSessionHandlerBundle.svg?branch=master)](https://travis-ci.org/Ang3/PdoSessionHandlerBundle) [![Latest Stable Version](https://poser.pugx.org/ang3/pdo-session-handler-bundle/v/stable)](https://packagist.org/packages/ang3/pdo-session-handler-bundle) [![Latest Unstable Version](https://poser.pugx.org/ang3/pdo-session-handler-bundle/v/unstable)](https://packagist.org/packages/ang3/pdo-session-handler-bundle) [![Total Downloads](https://poser.pugx.org/ang3/pdo-session-handler-bundle/downloads)](https://packagist.org/packages/ang3/pdo-session-handler-bundle)
 
-This bundles is an integration of [Ang3/php-filesystem](https://github.com/Ang3/php-filesystem). It helps you to manage filesystems easily by mapping statically or dynamically routes.
+This bundle helps you in the configuration of a PDO session handler (see [symfony documentation](https://symfony.com/doc/3.4/doctrine/pdo_session_storage.html)).
 
 Installation
 ============
