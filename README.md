@@ -59,7 +59,7 @@ $ php bin/console doctrine:schema:update --force
 Step 3: Configure your app
 -------------------------
 
-Update "handler id" in your configuration file ```config.yml```:
+Update the "handler id" in your configuration file ```config.yml```:
 
 ```yaml
 # app/config/config.yml
