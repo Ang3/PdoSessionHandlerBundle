@@ -11,19 +11,16 @@
             "homepage": "http://www.lixye.fr"
         }
     ],
-    "require": {
-        "php": "~7.1",
-        "symfony/symfony": "^3.0",
-        "doctrine/orm": "^2.6",
-        "doctrine/doctrine-bundle": "^1.8"
-    },
     "autoload": {
         "psr-4": { "Ang3\\Bundle\\PdoSessionHandlerBundle\\": "" }
     },
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/framework-bundle": "~2.7|~3.0|~4.0",
+        "doctrine/orm": "^2.5",
+        "doctrine/doctrine-bundle": "^1.8"
+    },
     "require-dev": {
-        "phpro/grumphp": "^0.14.0",
-        "friendsofphp/php-cs-fixer": "^2.10",
-        "jakub-onderka/php-parallel-lint": "^1.0",
-        "phpunit/phpunit": "^7.0"
+        "phpunit/phpunit": "^6.4"
     }
 }
