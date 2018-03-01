@@ -39,7 +39,7 @@ class AppKernel extends Kernel
   {
     $bundles = array(
       // ...
-      new Ang3\PdoSessionHandlerBundle\Ang3PdoSessionHandlerBundle(),
+      new Ang3\Bundle\PdoSessionHandlerBundle\Ang3PdoSessionHandlerBundle(),
     );
 
     // ...
@@ -69,4 +69,4 @@ framework:
     handler_id: Symfony\Component\HttpFoundation\Session\Storage\Handler\PdoSessionHandler
 ```
 
-That's all.
+That's it.
