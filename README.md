@@ -49,6 +49,9 @@ class AppKernel extends Kernel
 }
 ```
 
+Step 4: Update your schema
+--------------------------
+
 Do not forget to update your database schema in order to create "sessions" table:
 
 ```console
@@ -57,16 +60,11 @@ $ php bin/console doctrine:schema:update --force
 ```
 
 Step 3: Configure your app
--------------------------
+--------------------------
 
-Update the "handler id" in your configuration file ```config.yml```:
+Please see documentation by ignoring database configuration section:
 
-```yaml
-# app/config/config.yml
-framework:
-  # ...
-  session:
-    handler_id: Symfony\Component\HttpFoundation\Session\Storage\Handler\PdoSessionHandler
-```
+- [Symfony 3.4](https://symfony.com/doc/3.4/doctrine/pdo_session_storage.html)
+- [Symfony 4.x](https://symfony.com/doc/4.2/doctrine/pdo_session_storage.html)
 
 That's it.
