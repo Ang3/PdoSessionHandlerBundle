@@ -1,5 +1,0 @@
-services:
-  Symfony\Component\HttpFoundation\Session\Storage\Handler\PdoSessionHandler:
-    arguments:
-      - 'mysql:host=%ang3_pdo_session_handler.host%;port=%ang3_pdo_session_handler.port%;dbname=%ang3_pdo_session_handler.database%'
-      - { db_username: '%ang3_pdo_session_handler.username%', db_password: '%ang3_pdo_session_handler.password%' }

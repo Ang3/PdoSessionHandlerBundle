@@ -20,17 +20,6 @@ class Configuration implements ConfigurationInterface
         $treeBuilder = new TreeBuilder();
         $rootNode = $treeBuilder->root('ang3_pdo_session_handler');
 
-        $rootNode
-            ->addDefaultsIfNotSet()
-            ->children()
-                ->scalarNode('host')->defaultValue('%database_host%')->cannotBeEmpty()->end()
-                ->integerNode('port')->defaultValue(3306)->end()
-                ->scalarNode('database')->defaultValue('%database_name%')->cannotBeEmpty()->end()
-                ->scalarNode('username')->defaultValue('%database_user%')->cannotBeEmpty()->end()
-                ->scalarNode('password')->defaultValue('%database_password%')->end()
-            ->end()
-        ;
-
         return $treeBuilder;
     }
 }

@@ -49,7 +49,7 @@ class Session
      */
     public function setId($id)
     {
-        $this->id = (string) $id;
+        $this->id = $id;
 
         return $this;
     }
@@ -97,7 +97,7 @@ class Session
      */
     public function setTime($time)
     {
-        $this->time = (int) $time;
+        $this->time = $time;
 
         return $this;
     }
@@ -121,7 +121,7 @@ class Session
      */
     public function setLifetime($lifetime)
     {
-        $this->lifetime = (int) $lifetime;
+        $this->lifetime = $lifetime;
 
         return $this;
     }
